@@ -1,0 +1,88 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+
+    
+    
+}
+.card{
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    
+}
+.card_image{
+    background-color: white;
+    height: 120px;
+    max-width: 200px;
+    margin: auto;
+    border-radius: 15px;
+    
+    
+}
+.card__description{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+    .card {
+      width: 50%;
+      max-width: 100%;
+      margin: auto auto 10px;
+    }
+   }
+   
+   @media screen and (max-width: 480px) {
+    .card {
+      width: 95%;
+    }
+   }
+.club{
+    text-align: center;
+    color: white;
+    margin-bottom: -23.5px;
+}
+/*.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+.card_image{
+    background-color: #a2a2a2;
+    height: 120px;
+    max-width: 150px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.card__description{
+    margin-top: 15px;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
